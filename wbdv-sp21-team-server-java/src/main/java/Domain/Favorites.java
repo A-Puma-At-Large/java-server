@@ -1,4 +1,4 @@
-package DomainObject;
+package Domain;
 
 public class Favorites {
 }
