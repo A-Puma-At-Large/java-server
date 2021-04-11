@@ -3,11 +3,36 @@ package com.example.wbdvsp21teamserverjava.models.Roles;
 
 import lombok.Getter;
 import lombok.Setter;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Getter
 @Setter
-public class Admin extends Role {
-    public Admin(String firstName, String lastName, String email, String password, String username) {
-        super(firstName, lastName, email, password, username);
+public class Admin{
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String password;
+    private String username;
+
+
+    public Admin(Long id, String firstName, String lastName, String email, String password,
+        String username) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.password = password;
+        this.username = username;
+    }
+
+    public Admin(){
     }
 }
