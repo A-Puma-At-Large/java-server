@@ -17,7 +17,7 @@ public class Review {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long reviewId;
 
-    private String userId; // using the username as the primary key
+    private Long userId; // using the username as the primary key
     private String artworkId;
     private String comment;
 
@@ -26,7 +26,7 @@ public class Review {
 
     public Review() {}
 
-    public Review(String userId, String artworkId, String comment) {
+    public Review(Long userId, String artworkId, String comment) {
         this.userId = userId;
         this.artworkId = artworkId;
         this.comment = comment;

@@ -2,30 +2,44 @@ package com.example.wbdvsp21teamserverjava.models.Roles;
 
 import com.example.wbdvsp21teamserverjava.models.Domain.Favorite;
 import com.example.wbdvsp21teamserverjava.models.Domain.Review;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.util.ArrayList;
 import java.util.List;
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
 
 @Getter
 @Setter
-public class User extends Role{
-    private List<Favorite> favoriteList;
-    private List<Review> reviewList;
+@Entity
+@NoArgsConstructor
+@AllArgsConstructor
+@Table(name="users")
+public class User{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+//    since every review will save userId to represent the user's information,
+//    we do not need to store reviews and favorites' information again here.
 
-    public User(String firstName, String lastName, String email, String password, String username) {
-        super(firstName, lastName, email, password, username);
-        this.favoriteList = new ArrayList<>();
-        this.reviewList = new ArrayList<>();
-    }
+//    @OneToMany(targetEntity = Favorite.class, cascade = CascadeType.ALL)
+//    @JoinColumn(name = "fv_fk",referencedColumnName = "id")
+//    private List<Favorite> favoriteList;
+//    @OneToMany(targetEntity = Review.class, cascade = CascadeType.ALL)
+//    @JoinColumn(name = "rv_fk",referencedColumnName = "id")
+//    private List<Review> reviewsList;
 
-
-    public void addFavorite(Favorite favorite) {
-        this.favoriteList.add(favorite);
-    }
-
-    public void addReview(Review review) {
-        this.reviewList.add(review);
-    }
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String password;
+    private String username;
 }
+
