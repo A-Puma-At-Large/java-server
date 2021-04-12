@@ -47,7 +47,7 @@ public class UserController {
   }
 
   @PutMapping("/api/users/{id}")
-  public Integer updateWidget(
+  public Integer updateUser(
       @PathVariable("id") Long id,
       @RequestBody User user
   ) {

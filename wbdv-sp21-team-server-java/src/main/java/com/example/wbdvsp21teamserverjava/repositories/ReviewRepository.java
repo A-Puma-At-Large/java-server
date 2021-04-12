@@ -14,5 +14,4 @@ public interface ReviewRepository extends CrudRepository<Review, Long> {
   @Query(value="SELECT * FROM reviews WHERE user_id=:userId", nativeQuery = true)
   public List<Review> findReviewsForUser(@Param("userId")String userId);
 
-
 }

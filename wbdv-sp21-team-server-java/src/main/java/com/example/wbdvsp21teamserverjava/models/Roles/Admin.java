@@ -14,6 +14,7 @@ import javax.persistence.Table;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(name="admins")
 public class Admin{
 
     @Id
