@@ -11,11 +11,17 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class AdminService {
+
   @Autowired
   AdminRepository adminRepository;
 
   public List<Admin> findAllAdmins() {
     return (List<Admin>) adminRepository.findAll();
+  }
+
+  public Boolean authenticate (Admin admin){
+    Admin foundUser = adminRepository.findAdminByUsername(admin.getUsername());
+    return foundUser.getPassword().equals(admin.getPassword());
   }
 
   public Integer updateAdmin(Long id, Admin admin) {

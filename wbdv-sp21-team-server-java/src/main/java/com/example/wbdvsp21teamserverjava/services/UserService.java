@@ -40,6 +40,16 @@ public class UserService {
     return -1;
   }
 
+  public Boolean authenticate (User user){
+    User foundUser = userRepository.findUserByUsername(user.getUsername());
+    return foundUser.getPassword().equals(user.getPassword());
+  }
+
+  public boolean isUsernameUnique(User user){
+    User foundUser = userRepository.findUserByUsername(user.getUsername());
+    return foundUser == null;
+  }
+
   public Integer updateUser(Long id, User user) {
     User originalUser = userRepository.findById(id).get();
     if (user.getFirstName() != null) {

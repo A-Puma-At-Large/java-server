@@ -1,15 +1,11 @@
 package com.example.wbdvsp21teamserverjava.controllers;
-
 import com.example.wbdvsp21teamserverjava.models.Roles.Admin;
 import com.example.wbdvsp21teamserverjava.services.AdminService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
 
 @RestController
 @CrossOrigin(origins = "*")
@@ -28,5 +24,10 @@ public class AdminController {
       @RequestBody Admin admin
   ) {
     return adminService.updateAdmin(id, admin);
+  }
+
+  @PostMapping("/api/login/admin")
+  public Boolean authenticate (@RequestBody @Valid Admin admin) {
+    return adminService.authenticate(admin);
   }
 }

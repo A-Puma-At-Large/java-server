@@ -15,6 +15,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
 
 @Getter
 @Setter
@@ -35,11 +37,16 @@ public class User{
 //    @OneToMany(targetEntity = Review.class, cascade = CascadeType.ALL)
 //    @JoinColumn(name = "rv_fk",referencedColumnName = "id")
 //    private List<Review> reviewsList;
-
+    @NotNull
     private String firstName;
+    @NotNull
     private String lastName;
+    @NotNull
+    @Email
     private String email;
+    @NotNull
     private String password;
+    @NotNull
     private String username;
 }
 

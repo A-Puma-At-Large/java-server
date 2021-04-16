@@ -3,9 +3,57 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="754d2a9a-e1e9-4586-aa2e-81362dc72f03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/models/Roles/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/models/Roles/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/models/Roles/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/models/Roles/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/repositories/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/repositories/AdminRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/services/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/services/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wbdvsp21teamserverjava/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/wbdv-sp21-team-server-java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/DemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/controllers/FavoriteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/controllers/FavoriteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/controllers/ReviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/controllers/ReviewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/models/Domain/Favorite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/models/Domain/Favorite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/models/Domain/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/models/Domain/Review.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/models/Roles/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/models/Roles/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/models/Roles/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/models/Roles/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/repositories/FavoriteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/repositories/FavoriteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/repositories/ReviewRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/repositories/ReviewRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/repositories/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/services/FavoriteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/services/FavoriteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/services/ReviewService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/services/ReviewService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/wbdvsp21teamserverjava/services/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/wbdvsp21teamserverjava/DemoApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/wbdvsp21teamserverjava/DemoApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wbdv-sp21-team-server-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wbdv-sp21-team-server-java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +69,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="d9e27aca-3e85-440f-9e6d-12eb3a1063c1" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1r2rpApNKfKne5nhCD9FofIFOSk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -49,6 +105,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -58,6 +115,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="wbdv-sp21-team-server-java" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.wbdvsp21teamserverjava.DemoApplication" />
@@ -66,19 +136,7 @@
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -93,81 +151,119 @@
       <workItem from="1618185256209" duration="2272000" />
       <workItem from="1618189026785" duration="1369000" />
       <workItem from="1618190931321" duration="5189000" />
+      <workItem from="1618529576200" duration="11185000" />
+      <workItem from="1618550424139" duration="3492000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2303" y="424" key="#Assign_Data_Sources" timestamp="1618542604671">
+      <screen x="1440" y="23" width="1920" height="1007" />
+    </state>
+    <state x="2303" y="424" key="#Assign_Data_Sources/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618542604671" />
     <state x="320" y="88" key="#Project_Structure" timestamp="1618189085026">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="320" y="88" key="#Project_Structure/0.25.1440.807@0.25.1440.807" timestamp="1618189085026" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1618195509026">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="2209" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1618546163431">
+      <screen x="1440" y="23" width="1920" height="1007" />
     </state>
+    <state x="2209" y="249" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618546163431" />
+    <state x="1754" y="458" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1618550363509">
+      <screen x="1440" y="23" width="1920" height="1007" />
+    </state>
+    <state x="1754" y="458" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618550363509" />
+    <state width="1462" height="473" key="GridCell.Tab.0.bottom" timestamp="1618555590532">
+      <screen x="1440" y="23" width="1920" height="1007" />
+    </state>
+    <state width="1462" height="473" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618555590532" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.801/-209.-1055.1920.1055@0.25.1440.801" timestamp="1618192407371" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.807@0.25.1440.807" timestamp="1618189995133" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.809/-209.-1055.1920.1055@0.25.1440.809" timestamp="1618190460177" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.809@0.25.1440.809" timestamp="1618190082864" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.875/-209.-1055.1920.981@0.25.1440.875" timestamp="1618195509026" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1618195509025">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1462" height="473" key="GridCell.Tab.0.center" timestamp="1618555590529">
+      <screen x="1440" y="23" width="1920" height="1007" />
     </state>
+    <state width="1462" height="473" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618555590529" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.801/-209.-1055.1920.1055@0.25.1440.801" timestamp="1618192407370" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.807@0.25.1440.807" timestamp="1618189995132" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.809/-209.-1055.1920.1055@0.25.1440.809" timestamp="1618190460175" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.809@0.25.1440.809" timestamp="1618190082863" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.875/-209.-1055.1920.981@0.25.1440.875" timestamp="1618195509025" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1618195509025">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1462" height="473" key="GridCell.Tab.0.left" timestamp="1618555590528">
+      <screen x="1440" y="23" width="1920" height="1007" />
     </state>
+    <state width="1462" height="473" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618555590528" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.801/-209.-1055.1920.1055@0.25.1440.801" timestamp="1618192407369" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.807@0.25.1440.807" timestamp="1618189995132" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.809/-209.-1055.1920.1055@0.25.1440.809" timestamp="1618190460175" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.809@0.25.1440.809" timestamp="1618190082861" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.875/-209.-1055.1920.981@0.25.1440.875" timestamp="1618195509025" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1618195509026">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1462" height="473" key="GridCell.Tab.0.right" timestamp="1618555590531">
+      <screen x="1440" y="23" width="1920" height="1007" />
     </state>
+    <state width="1462" height="473" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618555590531" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.801/-209.-1055.1920.1055@0.25.1440.801" timestamp="1618192407370" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1618189995133" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.809/-209.-1055.1920.1055@0.25.1440.809" timestamp="1618190460176" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.809@0.25.1440.809" timestamp="1618190082864" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.875/-209.-1055.1920.981@0.25.1440.875" timestamp="1618195509026" />
-    <state width="1398" height="203" key="GridCell.Tab.1.bottom" timestamp="1618195509028">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1462" height="473" key="GridCell.Tab.1.bottom" timestamp="1618555590535">
+      <screen x="1440" y="23" width="1920" height="1007" />
     </state>
+    <state width="1462" height="473" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618555590535" />
     <state width="1398" height="203" key="GridCell.Tab.1.bottom/0.25.1440.801/-209.-1055.1920.1055@0.25.1440.801" timestamp="1618192407373" />
     <state width="1398" height="203" key="GridCell.Tab.1.bottom/0.25.1440.807@0.25.1440.807" timestamp="1618189995134" />
     <state width="1398" height="203" key="GridCell.Tab.1.bottom/0.25.1440.809/-209.-1055.1920.1055@0.25.1440.809" timestamp="1618190460178" />
     <state width="1398" height="203" key="GridCell.Tab.1.bottom/0.25.1440.809@0.25.1440.809" timestamp="1618190082868" />
     <state width="1398" height="203" key="GridCell.Tab.1.bottom/0.25.1440.875/-209.-1055.1920.981@0.25.1440.875" timestamp="1618195509028" />
-    <state width="1398" height="203" key="GridCell.Tab.1.center" timestamp="1618195509028">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1462" height="473" key="GridCell.Tab.1.center" timestamp="1618555590534">
+      <screen x="1440" y="23" width="1920" height="1007" />
     </state>
+    <state width="1462" height="473" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618555590534" />
     <state width="1398" height="203" key="GridCell.Tab.1.center/0.25.1440.801/-209.-1055.1920.1055@0.25.1440.801" timestamp="1618192407372" />
     <state width="1398" height="203" key="GridCell.Tab.1.center/0.25.1440.807@0.25.1440.807" timestamp="1618189995133" />
     <state width="1398" height="203" key="GridCell.Tab.1.center/0.25.1440.809/-209.-1055.1920.1055@0.25.1440.809" timestamp="1618190460177" />
     <state width="1398" height="203" key="GridCell.Tab.1.center/0.25.1440.809@0.25.1440.809" timestamp="1618190082867" />
     <state width="1398" height="203" key="GridCell.Tab.1.center/0.25.1440.875/-209.-1055.1920.981@0.25.1440.875" timestamp="1618195509028" />
-    <state width="1398" height="203" key="GridCell.Tab.1.left" timestamp="1618195509027">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1462" height="473" key="GridCell.Tab.1.left" timestamp="1618555590533">
+      <screen x="1440" y="23" width="1920" height="1007" />
     </state>
+    <state width="1462" height="473" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618555590533" />
     <state width="1398" height="203" key="GridCell.Tab.1.left/0.25.1440.801/-209.-1055.1920.1055@0.25.1440.801" timestamp="1618192407371" />
     <state width="1398" height="203" key="GridCell.Tab.1.left/0.25.1440.807@0.25.1440.807" timestamp="1618189995133" />
     <state width="1398" height="203" key="GridCell.Tab.1.left/0.25.1440.809/-209.-1055.1920.1055@0.25.1440.809" timestamp="1618190460177" />
     <state width="1398" height="203" key="GridCell.Tab.1.left/0.25.1440.809@0.25.1440.809" timestamp="1618190082866" />
     <state width="1398" height="203" key="GridCell.Tab.1.left/0.25.1440.875/-209.-1055.1920.981@0.25.1440.875" timestamp="1618195509027" />
-    <state width="1398" height="203" key="GridCell.Tab.1.right" timestamp="1618195509028">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1462" height="473" key="GridCell.Tab.1.right" timestamp="1618555590535">
+      <screen x="1440" y="23" width="1920" height="1007" />
     </state>
+    <state width="1462" height="473" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618555590535" />
     <state width="1398" height="203" key="GridCell.Tab.1.right/0.25.1440.801/-209.-1055.1920.1055@0.25.1440.801" timestamp="1618192407372" />
     <state width="1398" height="203" key="GridCell.Tab.1.right/0.25.1440.807@0.25.1440.807" timestamp="1618189995134" />
     <state width="1398" height="203" key="GridCell.Tab.1.right/0.25.1440.809/-209.-1055.1920.1055@0.25.1440.809" timestamp="1618190460178" />
     <state width="1398" height="203" key="GridCell.Tab.1.right/0.25.1440.809@0.25.1440.809" timestamp="1618190082867" />
     <state width="1398" height="203" key="GridCell.Tab.1.right/0.25.1440.875/-209.-1055.1920.981@0.25.1440.875" timestamp="1618195509028" />
+    <state x="1909" y="165" key="SettingsEditor" timestamp="1618533578295">
+      <screen x="1440" y="23" width="1920" height="1007" />
+    </state>
+    <state x="1909" y="165" key="SettingsEditor/0.23.1440.877/1440.23.1920.1007@1440.23.1920.1007" timestamp="1618533578295" />
     <state x="385" y="191" width="670" height="675" key="run.anything.popup" timestamp="1618189821418">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
