@@ -22,7 +22,6 @@ import javax.validation.Valid;
 public class UserController {
   @Autowired
   UserService userService;
-//  UserService userService;
 
   @GetMapping("/api/find/users")
   public List<User> findAllUsers() {
@@ -30,7 +29,7 @@ public class UserController {
   }
 
   @PostMapping("/api/users")
-  public User createUser(@RequestBody @Valid User user) throws UserExitedException {
+  public User createUser(@RequestBody User user) throws UserExitedException {
     if(userService.isUsernameUnique(user))
       return userService.createUser(user);
     else
