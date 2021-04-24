@@ -1,5 +1,6 @@
 package com.example.wbdvsp21teamserverjava.controllers;
 
+import com.example.wbdvsp21teamserverjava.exception.NoSuchUserExistedException;
 import com.example.wbdvsp21teamserverjava.exception.UserExitedException;
 import com.example.wbdvsp21teamserverjava.models.Roles.User;
 import com.example.wbdvsp21teamserverjava.services.UserService;
@@ -41,8 +42,13 @@ public class UserController {
     return userService.findUserById(userId).get();
   }
 
+  @GetMapping("/api/users/username/{username}")
+  public User findUserByUsername(@Valid @PathVariable("username") String username) {
+    return userService.findUserByUsername(username);
+  }
+
   @DeleteMapping("/api/users/{id}")
-  public Integer deleteUser(@Valid @PathVariable("id") Long id) {
+  public Integer deleteUser(@Valid @PathVariable("id") Long id) throws NoSuchUserExistedException {
     return userService.deleteUser(id);
   }
 

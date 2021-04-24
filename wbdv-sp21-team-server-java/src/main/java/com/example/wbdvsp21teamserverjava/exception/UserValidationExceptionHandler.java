@@ -13,10 +13,10 @@ import java.util.Map;
 @ControllerAdvice
 public class UserValidationExceptionHandler {
 
-    @ExceptionHandler({UserExitedException.class, PasswordExpiredException.class})
+    @ExceptionHandler({UserException.class, PasswordExpiredException.class})
     @ResponseBody
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    public Map<String, String> handleUserExistedException(UserExitedException ex) {
+    public Map<String, String> handleUserExistedException(UserException ex) {
         Map<String, String> result = new HashMap<>();
         result.put("Message:", ex.getMessage());
         return result;

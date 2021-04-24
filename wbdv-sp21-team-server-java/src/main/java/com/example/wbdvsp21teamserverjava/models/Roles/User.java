@@ -32,14 +32,10 @@ public class User{
 //    private List<Review> reviewsList;
 
     private String firstName;
-
     private String lastName;
-
     @Email
     private String email;
-
     private String password;
-
     private String username;
 }
 

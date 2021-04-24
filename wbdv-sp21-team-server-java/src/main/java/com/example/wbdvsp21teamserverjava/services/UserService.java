@@ -1,5 +1,6 @@
 package com.example.wbdvsp21teamserverjava.services;
 
+import com.example.wbdvsp21teamserverjava.exception.NoSuchUserExistedException;
 import com.example.wbdvsp21teamserverjava.models.Roles.User;
 import com.example.wbdvsp21teamserverjava.repositories.UserRepository;
 import java.util.ArrayList;
@@ -35,9 +36,13 @@ public class UserService {
     return userRepository.findById(id);
   }
 
-  public Integer deleteUser(Long id) {
-    userRepository.deleteById(id);
-    return -1;
+  public Integer deleteUser(Long id) throws NoSuchUserExistedException {
+   try {
+     userRepository.deleteById(id);
+   } catch (Exception e) {
+     throw new NoSuchUserExistedException("No such user existed");
+   }
+     return 1;
   }
 
   public Boolean authenticate (User user){
@@ -48,6 +53,10 @@ public class UserService {
   public boolean isUsernameUnique(User user){
     User foundUser = userRepository.findUserByUsername(user.getUsername());
     return foundUser == null;
+  }
+
+  public User findUserByUsername(String username){
+    return userRepository.findUserByUsername(username);
   }
 
   public Integer updateUser(Long id, User user) {
