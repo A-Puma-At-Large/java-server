@@ -54,8 +54,8 @@ public class UserController {
 
   @PutMapping("/api/users/{id}")
   public Integer updateUser(
-          @Valid @PathVariable("id") Long id,
-          @Valid @RequestBody User user) {
+           @PathVariable("id") Long id,
+           @RequestBody User user) {
     return userService.updateUser(id, user);
   }
 

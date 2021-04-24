@@ -60,7 +60,12 @@ public class UserService {
   }
 
   public Integer updateUser(Long id, User user) {
+    System.out.println(user.toString());
+
     User originalUser = userRepository.findById(id).get();
+    System.out.println(originalUser.toString());
+
+
     if (user.getFirstName() != null) {
       originalUser.setFirstName(user.getFirstName());
     }
@@ -68,7 +73,7 @@ public class UserService {
       originalUser.setLastName(user.getLastName());
     }
     if (user.getUsername() != null) {
-      originalUser.setLastName(user.getLastName());
+      originalUser.setUsername(user.getUsername());
     }
     if (user.getEmail() != null) {
       originalUser.setEmail(user.getEmail());
@@ -77,6 +82,8 @@ public class UserService {
     if(user.getPassword() != null) {
       originalUser.setPassword(user.getPassword());
     }
+
+    System.out.println(originalUser.toString());
     userRepository.save(originalUser);
     return -1;
   }

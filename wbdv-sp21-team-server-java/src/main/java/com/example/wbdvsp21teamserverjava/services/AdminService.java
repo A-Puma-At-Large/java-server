@@ -20,6 +20,7 @@ public class AdminService {
   }
 
   public Boolean authenticate (Admin admin){
+    System.out.println(admin.getUsername());
     Admin foundUser = adminRepository.findAdminByUsername(admin.getUsername());
     return foundUser.getPassword().equals(admin.getPassword());
   }

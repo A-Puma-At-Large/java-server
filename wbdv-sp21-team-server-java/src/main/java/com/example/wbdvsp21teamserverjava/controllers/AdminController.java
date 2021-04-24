@@ -27,7 +27,8 @@ public class AdminController {
   }
 
   @PostMapping("/api/login/admin")
-  public Boolean authenticate (@RequestBody @Valid Admin admin) {
+  public Boolean authenticate (@RequestBody Admin admin) {
+
     return adminService.authenticate(admin);
   }
 }
