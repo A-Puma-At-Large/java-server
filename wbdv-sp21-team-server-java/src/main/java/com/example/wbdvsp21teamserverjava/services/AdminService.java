@@ -24,6 +24,10 @@ public class AdminService {
     Admin foundUser = adminRepository.findAdminByUsername(admin.getUsername());
     return foundUser.getPassword().equals(admin.getPassword());
   }
+  
+  public Admin createAdmin(Admin admin) {
+    return adminRepository.save(admin);
+  }
 
   public Integer updateAdmin(Long id, Admin admin) {
     Admin originalAdmin = adminRepository.findById(id).get();
