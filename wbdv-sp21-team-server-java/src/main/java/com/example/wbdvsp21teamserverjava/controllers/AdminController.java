@@ -17,6 +17,11 @@ public class AdminController {
   public List<Admin> findAllAdmins() {
     return (List<Admin>) adminService.findAllAdmins();
   }
+  
+  @PostMapping("/api/admins")
+  public Admin createAdmin(@RequestBody Admin admin) throws UserExitedException {
+    return adminService.createAdmin(admin);
+  }
 
   @PutMapping("/api/admins/{id}")
   public Integer updateAdmin(
